@@ -1,0 +1,10 @@
+{comm} a^2 = b^2 + c^2
+{print} Enter a leg: 
+{get} b
+{print} Enter the last leg: 
+{get} c
+b * b = b
+c * c = c
+b + c = a
+a^
+{print} The hypotenuse is #a.

@@ -1,0 +1,8 @@
+{print} Enter the hieght of the triangle: 
+{get} a
+{print} Enter the base of the triangle: 
+{get} b
+{=} d = 2
+a * b = c
+c / d = c
+{print} The area of this rectangle is #c

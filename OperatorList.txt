@@ -1,0 +1,27 @@
+Below is a list of operators. Each operator tells the Ezeg Compiler what is happening in a statement. 
+
+Basic operators
+~~~~~~~~~~~~~~~~~~~
+{=} = Variable Assigner
+	{=} a = 5
+
+{print} = Prints
+	{print} The sum of #a and b is #c
+	>>The sum of 5 and b is 11
+	(use a # to tell the compiler to print the variable's value instead of a letter)
+	(also, only one # per statement)
+
+{println} = Prints on a new line
+	{println} The sum of #a and b is #c
+	>>...(previous prints)
+	>>The sum of 5 and b is 11
+	
+{get} = Gets a value from the user
+	{get} a
+
+{comm} = This is a comment. The compiler ignores this line
+	{comm} This is a comment
+
+Advanced operators --- (NOT IMPLEMENTED YET)
+~~~~~~~~~~~~~~~~~~~
+{1/x} Devides whatever the following statement finishes as by x, where x must be a postive non-zero integer.

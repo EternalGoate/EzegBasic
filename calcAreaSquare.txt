@@ -1,0 +1,4 @@
+{print} Enter one side of the square: 
+{get} a
+a * a = b
+{print} The area of this square is #b

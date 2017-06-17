@@ -1,0 +1,6 @@
+{print} Enter one side of the rectangle: 
+{get} a
+{print} Enter the other side of the rectangle: 
+{get} b
+a * b = c
+{print} The area of this rectangle is #c
